@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body{
+    height: 100vh;
+}
+
+.tool{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: rgb(76, 104, 230);
+}
+
+.tool button{
+    width: 40px;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.tool input{
+    width: 40px;
+    margin: 5px;
+}
+
+
+#save{
+    margin-left: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.content{
+    display: flex;
+    justify-content: center; 
+}
+
+canvas{
+    border: 1px solid rgb(31, 58, 179);
+}
